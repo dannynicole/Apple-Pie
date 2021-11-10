@@ -13,6 +13,7 @@
 		3D469AC2273AAE91000068EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D469AC0273AAE91000068EB /* Main.storyboard */; };
 		3D469AC4273AAE99000068EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D469AC3273AAE99000068EB /* Assets.xcassets */; };
 		3D469AC7273AAE99000068EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D469AC5273AAE99000068EB /* LaunchScreen.storyboard */; };
+		3D91AFE8273C0D7D0068AD97 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D91AFE7273C0D7D0068AD97 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3D469AC3273AAE99000068EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D469AC6273AAE99000068EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D469AC8273AAE99000068EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D91AFE7273C0D7D0068AD97 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				3D469ABC273AAE91000068EB /* SceneDelegate.swift */,
 				3D469ABE273AAE91000068EB /* ViewController.swift */,
 				3D469AC0273AAE91000068EB /* Main.storyboard */,
+				3D91AFE7273C0D7D0068AD97 /* Game.swift */,
 				3D469AC3273AAE99000068EB /* Assets.xcassets */,
 				3D469AC5273AAE99000068EB /* LaunchScreen.storyboard */,
 				3D469AC8273AAE99000068EB /* Info.plist */,
@@ -140,6 +143,7 @@
 				3D469ABF273AAE91000068EB /* ViewController.swift in Sources */,
 				3D469ABB273AAE91000068EB /* AppDelegate.swift in Sources */,
 				3D469ABD273AAE91000068EB /* SceneDelegate.swift in Sources */,
+				3D91AFE8273C0D7D0068AD97 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +299,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Dana.Apple-Pie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -313,7 +317,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Dana.Apple-Pie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
